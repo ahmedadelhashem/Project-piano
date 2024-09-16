@@ -16,7 +16,9 @@ final List<model>tun=const [
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home:Scaffold(
+        
         appBar:AppBar(
           elevation: 0,
           backgroundColor: Colors.black87,
